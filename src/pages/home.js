@@ -6,7 +6,7 @@ const Home = ({children}) => {
 
     return (
        
-        <div id="home" className="container mx-auto w-auto sm:px-2 pt-24 flex-grow">
+        <div id="home" className="container mx-auto w-full sm:px-2 pt-16 sm:pt-24 flex-grow">
         <div className="bg-white ">
            <div className="flex flex-col sm:px-56 mx-8 mb-2 mt-24">
 

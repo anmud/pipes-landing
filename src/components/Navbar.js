@@ -6,52 +6,80 @@ import {Link} from 'gatsby'
 
 const Navbar = () => {
 
-  const [isOpen, setNav] = useState(false)
+  const [isExpanded, toggleExpansion] = useState(false);
 
-  console.log(isOpen)
-
+  
   const toggleNav = () => {
-    setNav(isOpen => !isOpen)
+    toggleExpansion(isExpanded => !isExpanded)
   }
 
   return (
 
 
-  <div className="w-full px-8  mx-auto  bg-white flex-grow items-start sm:items-center fixed z-50">  
+  <div className="w-full px-6 sm:px-20 -mt-3  mx-auto bg-white flex flex-wrap flex-grow items-start sm:items-center fixed z-50">  
 
-     <nav className="container mx-auto flex flex-grow items-center justify-between flex-wrap bg-white sm:px-24 pt-10  ">
-   <div className="flex items-center flex-shrink-0 text-black -ml-12 mr-4">
-     
-         <Link to='/#' className="sm:inline-block text-2xl font-extrabold">
+     <nav className="container mx-auto  sm:flex sm:flex-wrap flex-grow sm:items-center sm:justify-between bg-white pt-10  sm:px-24 ">
+  
+   <div className="flex justify-between items-center bg-white flex-shrink-0 text-black sm:mr-4">
+         <Link to='/#' className=" sm:inline-block text-2xl font-extrabold">
          <img src={logo} alt="pipes logo" className="hidden flex w-12 h-12 mr-2 sm:inline-block"/>
          Pipes</Link>
+      
+      
+      <div className="block sm:hidden"> 
+      <button type="button"  onClick={() => toggleNav()} className="flex text-right text-black sm:hidden appearance-none">
+          <FaBars className="w-6 h-5"/>
+      </button>
+      </div>
   
    </div>
 
-   {/* hidden small part */}
-   <div className="block sm:hidden"> 
-      <button type="button"  onClick={toggleNav} className="flex text-right sm:hidden appearance-none">
-          <FaBars className="w-6 h-5"/>
-      </button>
-   </div>
+  
 
-   <div className="w-full block flex-grow  sm:block md:flex  sm:w-auto lg:flex sm:items-center sm:w-auto bg-white">
-     <div className="text-lg sm:flex-grow">
-       <ul className="hidden sm:items-center sm:px-12 sm:flex-wrap sm:flex sm:flex-wrap ">
+   <div className={`${
+    isExpanded ? 'block ' : 'hidden'
+    }  mt-4 w-full bg-black flex-grow sm:block md:flex sm:w-auto lg:flex sm:items-center sm:w-auto sm:bg-white md:block md:flex md:items-center md:w-auto`}>
+     <div className="text-lg sm:flex-grow py-10 ">
+       <div className="min-w-full">
+       <ul className="px-4  sm:items-center sm:px-12 sm:flex sm:flex-wrap ">
           {links.map((item, index) => (
           
-          <li key={index} className="sm:flex mx-auto -mb-px  ">
-          <Link to={item.path}  className="block text-xl font-extrabold font-serif flex items-center py-3 border-b-4 border-transparent sm:hover:border-black no-underline sm:inline-block mt-4 sm:mt-0 ">{item.text}</Link>
+          <li key={index} className="sm:flex mx-auto  ">
+          <Link to={item.path}  className="block text-xl font-extrabold text-white sm:text-black flex items-center border-b-4 border-transparent hover:border-yellow-500 sm:hover:border-black no-underline sm:inline-block mt-4 sm:mt-0 ">{item.text}</Link>
            </li>
             
           ))}
      </ul>
+       </div>
+      
      </div>
      
    </div>
+ 
 
-   
+   {/* <div className={`${
+     isExpanded ? 'block ' : 'hidden'
+     }  mt-4 w-full bg-black  md:block md:flex md:items-center md:w-auto`}> 
+
+       <div class="container flex">
+         <ul className="flex flex-col ">
+          {links.map((item, index) => (
+          
+          <li key={index} className=" -mb-px text-left">
+          <Link to={item.path}  className="block md:inline-block md:mt-0 text-xl font-bold text-white py-4 border-b-4 border-transparent hover:border-yellow-500  no-underline  mt-2 ">{item.text}</Link>
+           </li>
+            
+          ))}
+     </ul>
+     
+       </div>
+    </div> */}
+
  </nav>
+
+
+ 
+
    </div>
   
   )

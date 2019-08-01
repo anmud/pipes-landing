@@ -7,21 +7,21 @@ const Afterwork = ({children}) => {
 
     return (
       
-           <div  id="afterwork" className="container mx-auto w-auto sm:px-2 pt-48 pb-8 flex-grow">
+           <div  id="afterwork" className="container mx-auto w-auto sm:px-2  pt-16 sm:pt-48 pb-8 flex-grow">
       <div className="bg-white">
-        <div className="flex flex-col sm:px-56 mx-8 -mb-24">
+        <div className="flex flex-wrap sm:px-56 mx-8 -mb-24">
        
 
         <div  className="flex flex-col">
-                    <h1 className="text-4xl text-left font-bold tracking-normal">Afterwork</h1> 
+                    <h1 className=" text-2xl sm:text-4xl text-left font-bold tracking-normal">Afterwork</h1> 
                     <div className="bg-black h-2 w-24 -mt-2"></div>
          </div>
 
 
-       <div className="pt-16">
+       <div className="pt-10 sm:pt-16 whitespace-normal">
        <div className="col w-full pb-4">
-         <div className="flex items-center -mb-3">
-         <h4 className="flex text-2xl font-bold tracking-normal mr-2">eBay, VP Mobile Engineering.</h4>
+         <div className="flex flex-wrap items-center -mb-3">
+          <h4 className="flex text-xl sm:text-2xl font-bold tracking-normal mr-2">eBay, VP Mobile Engineering.</h4>
           <p className="flex text-sm tracking-wide">Steve Romero.</p> 
          </div>
       
@@ -33,7 +33,7 @@ const Afterwork = ({children}) => {
 
       <div className="col w-full pb-4">
         <div className="flex items-center -mb-3">
-        <h4 className="flex text-2xl font-bold tracking-normal mr-2">American Express, VP Engineering.</h4>
+        <h4 className="flex text-xl sm:text-2xl font-bold tracking-normal mr-2">American Express, VP Engineering.</h4>
         <p className="flex text-sm tracking-wide">Aimee Cardwell.</p>
         </div>
         
@@ -45,7 +45,7 @@ const Afterwork = ({children}) => {
      
      <div className="col w-full pb-4">
        <div className="flex items-center -mb-3">
-       <h4 className="flex text-2xl font-bold tracking-normal mr-2">Rent the Runway, VP Engineering.</h4>
+       <h4 className="flex text-xl sm:text-2xl font-bold tracking-normal mr-2">Rent the Runway, VP Engineering.</h4>
        <p className="flex text-sm tracking-wide">Hampton Catlin.</p>
        </div>
 
@@ -54,8 +54,8 @@ const Afterwork = ({children}) => {
      </div>
 
     <div className="col w-full pb-4">
-      <div className="flex items-center -mb-3">
-       <h4 className="flex text-2xl font-bold tracking-normal mr-2">Merrill Corporation, Senior Director of Engineering.</h4>
+      <div className="flex flex-wrap sm:items-center -mb-3">
+       <h4 className="flex text-left text-xl sm:text-2xl font-bold tracking-normal mr-2">Merrill Corporation, Senior Director of Engineering.</h4>
        <p className="flex text-sm tracking-wide">Billy Tobon.</p>
       </div>
         <p className="max-w-full flex text-md  italic text-left leading-snug tracking-wide">The Agile Monkeys possesses a seasoned team of engineers – and most of them are truly full-stack – 

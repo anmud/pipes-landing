@@ -14,17 +14,17 @@ const Principles = ({children}) => {
 
     return (
       
- <div id="principles" className="container mx-auto w-auto sm:px-2 pt-24 pb-8 flex-grow">
+ <div id="principles" className="container mx-auto w-auto sm:px-2 pt-1 sm:pt-24 pb-8 flex-grow">
                <div className="bg-white">
                   <div className="flex flex-col sm:px-56 mx-8 ">
 
                       <div className="flex flex-col">
-                         <h1 className="text-4xl font-bold text-left tracking-normal">Our Principles</h1> 
+                         <h1 className="text-2xl sm:text-4xl font-bold text-left tracking-normal">Our Principles</h1> 
                          <div className="bg-black h-2 w-24 -mt-2"></div>
                       </div>
                       
                     
-                <div className="flex mt-16">
+                <div className="flex mt-8 sm:mt-16">
                 <p className="max-w-full mb-6 text-lg text-left font-bold leading-relaxed tracking-normal sm:max-w-md  md:max-w-lg lg:max-w-2xl  sm:text-2xl ">
                 We don’t believe in the traditional way of doing business: 
                 using common sense as our guide, 
