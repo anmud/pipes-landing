@@ -18,7 +18,7 @@ const Navbar = () => {
 
   <div className="w-full px-6 sm:px-20 -mt-3  mx-auto bg-white flex flex-wrap flex-grow items-start sm:items-center fixed z-50">  
 
-     <nav className="container mx-auto  sm:flex sm:flex-wrap flex-grow sm:items-center sm:justify-between bg-white pt-10  sm:px-24 ">
+     <nav className="container pt-10 mx-auto sm:flex sm:flex-wrap flex-grow sm:items-center sm:justify-between bg-white sm:px-24 sm:pt-0">
   
    <div className="flex justify-between items-center bg-white flex-shrink-0 text-black sm:mr-4">
          <Link to='/#' className=" sm:inline-block text-2xl font-extrabold">
