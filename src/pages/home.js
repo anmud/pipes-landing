@@ -16,9 +16,10 @@ const Home = ({children}) => {
              
          <div className="flex flex-col ">
          <p className="max-w-md mb-6 text-lg text-left font-bold leading-relaxed tracking-normal sm:max-w-md  md:max-w-lg lg:max-w-2xl  sm:text-2xl ">
-                We are a team of full-stack senior software engineers 
-                offering development services that focus on microservices, 
-                event-driven architectures, and serverless applications.
+        
+          We are a team of data engineers.
+          We help companies to setup analytics 
+          and accelerate growth through algorithms.
             </p>
             <div className="bg-black h-1 w-32 -mt-2"></div>
          </div>

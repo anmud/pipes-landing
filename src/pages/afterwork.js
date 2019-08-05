@@ -21,47 +21,57 @@ const Afterwork = ({children}) => {
        <div className="pt-10 sm:pt-16 whitespace-normal">
        <div className="col w-full pb-4">
          <div className="flex flex-wrap items-center -mb-3">
-          <h4 className="flex text-xl sm:text-2xl font-bold tracking-normal mr-2">eBay, VP Mobile Engineering.</h4>
-          <p className="flex text-sm tracking-wide">Steve Romero.</p> 
+          <h4 className="flex text-xl sm:text-2xl font-bold tracking-normal mr-2">tel-inform GmbH.</h4>
+          <p className="flex text-sm tracking-wide">Bernhard Sack.</p> 
          </div>
       
-       <p className="max-w-full flex text-md italic text-left leading-snug tracking-wide ">The Agile Monkeys is one of my favorite teams ever, and I’ve worked with many.
-          Aside from having very capable engineers (I refuse to work with anything less) they bring that little piece of magic that is 
-         the difference between meeting the requirements of the spec and building a great application.</p>
+       <p className="max-w-full flex text-md italic text-left leading-snug tracking-wide ">
+       The Pipes team was responsible for implementing a comprehensive data analytics solution for our business. 
+       They systematically designed and documented the implementation process. 
+       We have always found the cooperation with Pipes to be very uncomplicated, binding and trusting. 
+         </p>
        </div>
         
 
       <div className="col w-full pb-4">
         <div className="flex items-center -mb-3">
-        <h4 className="flex text-xl sm:text-2xl font-bold tracking-normal mr-2">American Express, VP Engineering.</h4>
-        <p className="flex text-sm tracking-wide">Aimee Cardwell.</p>
+        <h4 className="flex text-xl sm:text-2xl font-bold tracking-normal mr-2">TRW Automotive.</h4>
+        <p className="flex text-sm tracking-wide">Alexander Knorn.</p>
         </div>
         
-        <p className="max-w-full flex text-md  italic text-left leading-snug tracking-wide">Working with The Agile Monkeys is such a pleasure. 
-          They are always thinking about how the work can be done better, more scalably, and more efficiently. Jaime encourages his team members to become 
-          members of the teams they’re working with so that they work as one team, not as a third party.</p>
+        <p className="max-w-full flex text-md  italic text-left leading-snug tracking-wide">
+        A comprehensive, yet focused and understandable advice is particularly important to us. 
+        The Pipes team analyzed strengths, weaknesses and potentials for us, 
+        presented them clearly and always provided clear instructions for action.
+
+          </p>
       </div>
     
      
      <div className="col w-full pb-4">
        <div className="flex items-center -mb-3">
-       <h4 className="flex text-xl sm:text-2xl font-bold tracking-normal mr-2">Rent the Runway, VP Engineering.</h4>
-       <p className="flex text-sm tracking-wide">Hampton Catlin.</p>
+       <h4 className="flex text-xl sm:text-2xl font-bold tracking-normal mr-2">SEOSEO GmbH.</h4>
+       <p className="flex text-sm tracking-wide">Alexander Schneekloth.</p>
        </div>
 
-       <p className="max-w-full flex text-md  italic text-left leading-snug tracking-wide">The Agile Monkeys has been an awesome development partner for Rent the Runway.
-          We’ve used their team in almost all of our critical systems, and they’ve done a great job integrating themselves into our teams.</p>
+       <p className="max-w-full flex text-md  italic text-left leading-snug tracking-wide">
+       Whether reporting or configuring the analytics tools.
+        We are very satisfied with the service of Pipes and can recommend it further! 
+        The good price / performance ratio convinces us again and again, so that we will continue to work intensively with Pipes in the future.
+
+          </p>
      </div>
 
     <div className="col w-full pb-4">
       <div className="flex flex-wrap sm:items-center -mb-3">
-       <h4 className="flex text-left text-xl sm:text-2xl font-bold tracking-normal mr-2">Merrill Corporation, Senior Director of Engineering.</h4>
-       <p className="flex text-sm tracking-wide">Billy Tobon.</p>
+       <h4 className="flex text-left text-xl sm:text-2xl font-bold tracking-normal mr-2">Aufgesang GmbH.</h4>
+       <p className="flex text-sm tracking-wide">Olaf Klopp.</p>
       </div>
-        <p className="max-w-full flex text-md  italic text-left leading-snug tracking-wide">The Agile Monkeys possesses a seasoned team of engineers – and most of them are truly full-stack – 
-          that not only participates in the development activities but also helps to mentor other in-house engineers and project stakeholders. 
-          I have worked very closely with the The Agile Monkeys group in various projects in the last three years, 
-          and every time they excelled in the quality of their solutions, during design, implementation, and production rollout.</p>
+        <p className="max-w-full flex text-md  italic text-left leading-snug tracking-wide">
+        The advanced analytics workshop on Analytics and Google Tag Manager at Aufgesang was a complete success. 
+        We were able to derive concrete recommendations for action and services for our customers.
+
+          </p>
     </div>
 
        </div>

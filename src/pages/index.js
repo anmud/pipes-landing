@@ -19,7 +19,7 @@ export default () => {
                     <Home/>
                     <Projects/>
                     <Afterwork/>
-                    <OurStack/>
+                   
                     <Principles/>
                 </div>
             </div>
