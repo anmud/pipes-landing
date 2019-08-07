@@ -2,6 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
+  "component---src-templates-clients-template-js": () => import("/Users/anastasia/Desktop/coding/pipes-landing/src/templates/clientsTemplate.js" /* webpackChunkName: "component---src-templates-clients-template-js" */),
   "component---cache-dev-404-page-js": () => import("/Users/anastasia/Desktop/coding/pipes-landing/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-afterwork-js": () => import("/Users/anastasia/Desktop/coding/pipes-landing/src/pages/afterwork.js" /* webpackChunkName: "component---src-pages-afterwork-js" */),
   "component---src-pages-home-js": () => import("/Users/anastasia/Desktop/coding/pipes-landing/src/pages/home.js" /* webpackChunkName: "component---src-pages-home-js" */),

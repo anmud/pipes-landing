@@ -3,7 +3,7 @@ import {FaBars} from "react-icons/fa"
 import logo from '../images/logo.png'
 import links from '../constants/links'
 import {Link} from 'gatsby'
-//hello 
+
 const Navbar = () => {
 
   const [isExpanded, toggleExpansion] = useState(false);
