@@ -17,9 +17,9 @@ const Home = ({children}) => {
          <div className="flex flex-col ">
          <p className="max-w-md mb-6 text-lg text-left font-bold leading-relaxed tracking-normal sm:max-w-md  md:max-w-lg lg:max-w-2xl  sm:text-2xl ">
         
-          We are a team of data engineers.
-          We help companies to setup analytics 
-          and accelerate growth through algorithms.
+         We are a team of aws certified data engineers. 
+         We help companies to run digital analytics 
+         and custom data pipelines with radically less cost. 
             </p>
             <div className="bg-black h-1 w-32 -mt-2"></div>
          </div>

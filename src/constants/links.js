@@ -7,10 +7,10 @@ export default [
       path: "/#afterwork",
       text: "Afterwork",
     },
-    // {
-    //   path: "/#stack",
-    //   text: "Our Stack",
-    // },
+    {
+      path: "/#stack",
+      text: "Our Stack",
+    },
     {
         path: "/#principles",
         text: "Our Principles",

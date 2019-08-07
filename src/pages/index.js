@@ -6,7 +6,7 @@ import Home from './home'
 import Afterwork from "./afterwork";
 import OurStack from './stack'
 import Principles from './principles'
-
+import TestStack from './stack2'
 
 
 export default () => {
@@ -18,8 +18,8 @@ export default () => {
                    
                     <Home/>
                     <Projects/>
-                    <Afterwork/>
-                   
+                     <Afterwork/>
+                    <TestStack/>
                     <Principles/>
                 </div>
             </div>

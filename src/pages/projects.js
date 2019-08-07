@@ -97,32 +97,7 @@ const Projects = ({children}) => {
                          <div className="bg-black h-2 w-24 -mt-2"></div>
                       </div>
 
-                    {/* <div className="container flex flex-wrap sm:w-full justify-center pt-8 sm:pt-16 sm:-mx-6 ">
-                    
-                      <div className="flex-auto">
-                       <Img fluid={images.ebay.childImageSharp.fluid} alt="ebay" className=" m-1 sm:m-3"/>
-                       <Img fluid={images.rtr.childImageSharp.fluid} alt="rtr" className=" m-1 sm:m-3"/>
-                       <Img fluid={images.zara.childImageSharp.fluid} alt="zara" className=" m-1 sm:m-3"/>
-                      </div>
-                  <div className="flex-auto ">
-                  <Img fluid={images.paypal.childImageSharp.fluid} alt="paypal" className=" m-1 sm:m-3"/>
-                  <Img fluid={images.context.childImageSharp.fluid} alt="context" className=" m-1 sm:m-3"/>
-                  <Img fluid={images.trov.childImageSharp.fluid} alt="trov" className="m-1 sm:m-3"/>
-                  </div>
-
-                   <div className="flex-auto ">
-                   <Img fluid={images.extend.childImageSharp.fluid} alt="extend" className="m-1 sm:m-3"/>
-                  <Img fluid={images.meets.childImageSharp.fluid} alt="meets" className="m-1 sm:m-3"/>
-                  <Img fluid={images.haskell.childImageSharp.fluid} alt="haskell" className="m-1 sm:m-3"/>
-                   </div>
-                      
-                     
-                   
-                   
-                    </div> */}
-
-
-
+                
 
            <div class="flex flex-wrap -mb-4 sm:w-full  sm:-mx-16 pt-12 sm:px-16">
                       <div class="w-1/3 mb-4  px-2  ">
@@ -145,11 +120,6 @@ const Projects = ({children}) => {
            </div>
 </div>
        </div>
-      
-       
-      
-          
-        
     )
 }
 

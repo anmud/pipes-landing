@@ -14,7 +14,9 @@ const Footer = () => {
          
           <div className="flex-initial text-xl text-black mr-24">
             <div className="text-left font-bold pb-1">Let's talk</div>
-            <div className="text-sm ">hello@pipesdata.com</div>
+            <div className="text-sm ">
+              <a href="mailto:hello@pipesdata.com" className="hover:underline">hello@pipesdata.com</a>
+              </div>
             </div>
 
           <div className="flex">

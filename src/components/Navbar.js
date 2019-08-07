@@ -45,7 +45,7 @@ const Navbar = () => {
           {links.map((item, index) => (
           
           <li key={index} className="sm:flex mx-auto  ">
-          <Link to={item.path}  className="block text-xl font-extrabold text-white sm:text-black flex items-center border-b-4 border-transparent hover:border-yellow-500 sm:hover:border-black no-underline sm:inline-block mt-4 sm:mt-0 ">{item.text}</Link>
+          <Link to={item.path}  className="block text-2xl font-extrabold text-white sm:text-black flex items-center border-b-4 border-transparent hover:border-yellow-500 sm:hover:border-black no-underline sm:inline-block mt-4 sm:mt-0 ">{item.text}</Link>
            </li>
             
           ))}
@@ -57,23 +57,7 @@ const Navbar = () => {
    </div>
  
 
-   {/* <div className={`${
-     isExpanded ? 'block ' : 'hidden'
-     }  mt-4 w-full bg-black  md:block md:flex md:items-center md:w-auto`}> 
-
-       <div class="container flex">
-         <ul className="flex flex-col ">
-          {links.map((item, index) => (
-          
-          <li key={index} className=" -mb-px text-left">
-          <Link to={item.path}  className="block md:inline-block md:mt-0 text-xl font-bold text-white py-4 border-b-4 border-transparent hover:border-yellow-500  no-underline  mt-2 ">{item.text}</Link>
-           </li>
-            
-          ))}
-     </ul>
-     
-       </div>
-    </div> */}
+  
 
  </nav>
 
