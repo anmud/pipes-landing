@@ -87,14 +87,11 @@ const Projects = ({data}) => {
  
 const images = useStaticQuery(getImages)
 
-//const { images } = images
-
-
 
 
     return (
      
-         <div  id="projects" className="container mx-auto w-auto sm:px-2 pt-16 sm:pt-48 pb-8 flex-grow">
+         <div  id="projects" className="container mx-auto w-auto sm:px-2 pt-32 sm:pt-48 pb-8 flex-grow">
            <div className="bg-white">
              <div className="container mx-auto flex flex-col px-4 sm:px-56 sm:mx-8 -mb-3">
             

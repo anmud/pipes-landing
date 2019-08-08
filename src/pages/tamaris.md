@@ -1,7 +1,7 @@
 ---
 path: "clients/tamaris"
 date: "2019-08-07"
-title: "About Tamaris"
+title: "Tamaris"
 featuredImage: ../images/tamaris.png
 ---
 

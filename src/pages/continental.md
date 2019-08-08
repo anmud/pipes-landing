@@ -1,7 +1,7 @@
 ---
 path: "clients/continental"
 date: "2019-08-07"
-title: "About Continental"
+title: "Continental"
 featuredImage: ../images/continental.png
 ---
 

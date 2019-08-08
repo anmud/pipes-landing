@@ -1,7 +1,7 @@
 ---
 path: "clients/carhartt"
 date: "2019-08-07"
-title: "About Carhartt"
+title: "Carhartt"
 featuredImage: ../images/carhartt.png
 ---
 

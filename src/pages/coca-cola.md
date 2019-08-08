@@ -1,7 +1,7 @@
 ---
 path: "clients/coca-cola"
 date: "2019-08-07"
-title: "About Coca-Cola"
+title: "Coca-Cola"
 featuredImage: ../images/cocaCola.png
 ---
 

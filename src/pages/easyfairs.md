@@ -1,7 +1,7 @@
 ---
 path: "clients/easyfairs"
 date: "2019-08-07"
-title: "About Easyfairs"
+title: "Easyfairs"
 featuredImage: ../images/easyfairs.png
 ---
 

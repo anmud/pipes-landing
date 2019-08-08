@@ -1,7 +1,7 @@
 ---
 path: "/clients/otto/"
 date: "2019-08-07"
-title: "About Otto"
+title: "Otto"
 featuredImage: ../images/otto.png
 ---
 

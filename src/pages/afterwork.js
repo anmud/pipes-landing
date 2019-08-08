@@ -7,7 +7,7 @@ const Afterwork = ({children}) => {
 
     return (
       
-           <div  id="afterwork" className="container mx-auto w-auto sm:px-2  pt-16 sm:pt-48 pb-8 flex-grow">
+           <div  id="afterwork" className="container mx-auto w-auto sm:px-2  pt-24 sm:pt-48 pb-8 flex-grow">
       <div className="bg-white">
         <div className="flex flex-wrap sm:px-56 mx-8 -mb-24">
        

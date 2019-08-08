@@ -1,7 +1,7 @@
 ---
 path: "clients/kreditech"
 date: "2019-08-07"
-title: "About Kreditech"
+title: "Kreditech"
 featuredImage: ../images/kreditech.png
 ---
 

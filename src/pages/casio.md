@@ -1,7 +1,7 @@
 ---
 path: "/client/casio"
 date: "2019-08-07"
-title: "About Casio"
+title: "Casio"
 featuredImage: ../images/casio.png
 ---
 
