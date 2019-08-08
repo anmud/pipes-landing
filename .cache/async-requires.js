@@ -10,7 +10,6 @@ exports.components = {
   "component---src-pages-index-js": () => import("/Users/anastasia/Desktop/coding/pipes-landing/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-principles-js": () => import("/Users/anastasia/Desktop/coding/pipes-landing/src/pages/principles.js" /* webpackChunkName: "component---src-pages-principles-js" */),
   "component---src-pages-projects-js": () => import("/Users/anastasia/Desktop/coding/pipes-landing/src/pages/projects.js" /* webpackChunkName: "component---src-pages-projects-js" */),
-  "component---src-pages-stack-js": () => import("/Users/anastasia/Desktop/coding/pipes-landing/src/pages/stack.js" /* webpackChunkName: "component---src-pages-stack-js" */),
   "component---src-pages-stack-2-js": () => import("/Users/anastasia/Desktop/coding/pipes-landing/src/pages/stack2.js" /* webpackChunkName: "component---src-pages-stack-2-js" */)
 }
 

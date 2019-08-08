@@ -24,9 +24,9 @@ let image = post.frontmatter.featuredImage.childImageSharp.fluid
          </div> 
           
            <div className="w-full sm:w-1/2 ">
-           <div className="min-w-full text-left text-justify sm:text-left pl-4 px-10 pt-4 sm:pt-0">
-            <h1 className="text-3xl sm:text-4xl font-bold ">{post.frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} className="min-w-full text-lg sm:text-xl leading-normal "/>
+           <div className="min-w-full text-left text-justify sm:text-left px-4 sm:px-0 pl-4  pt-4 sm:pt-0">
+            <h1 className="text-3xl sm:text-4xl font-bold antialiased">{post.frontmatter.title}</h1>
+            <div dangerouslySetInnerHTML={{ __html: post.html }} className="min-w-full text-md sm:text-xl leading-normal tracking-wide "/>
              <Link to="/" className="underline text-xl sm:text-2xl">Back</Link>
             </div>
            </div>

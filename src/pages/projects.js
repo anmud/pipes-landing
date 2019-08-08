@@ -91,12 +91,12 @@ const images = useStaticQuery(getImages)
 
     return (
      
-         <div  id="projects" className="container mx-auto w-auto sm:px-2 pt-32 sm:pt-48 pb-8 flex-grow">
+         <div  id="projects" className="container mx-auto w-auto sm:px-2 pt-20 sm:pt-32 pb-8 flex-grow">
            <div className="bg-white">
              <div className="container mx-auto flex flex-col px-4 sm:px-56 sm:mx-8 -mb-3">
             
-                     <div  className="flex flex-col px-3">
-                         <h1  className="text-2xl sm:text-4xl text-left font-bold tracking-normal">Projects & Clients</h1> 
+                     <div  className="flex flex-col px-3 sm:-mx-4">
+                         <h1  className="text-3xl sm:text-5xl text-left font-medium tracking-normal antialiased">Projects & Clients</h1> 
                          <div className="bg-black h-2 w-24 -mt-2"></div>
                       </div>
 
@@ -104,7 +104,7 @@ const images = useStaticQuery(getImages)
         
 
         
-              <div className="flex flex-wrap -mb-4 sm:w-full  sm:-mx-16 pt-12 sm:px-16" >
+              <div className="flex flex-wrap -mb-4 sm:w-full  sm:-mx-16 pt-12 sm:px-12" >
            
                   <div  class="w-1/3 mb-4  px-2  ">
                      <Link to="/fahrrad/" ><Img fluid={images.fahrrad.childImageSharp.fluid} alt="fahrrad" /></Link>

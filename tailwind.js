@@ -267,6 +267,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       serif: [
+        'Roboto Slab',
         'Nunito',
         'Crimson Pro',
         'Georgia',
