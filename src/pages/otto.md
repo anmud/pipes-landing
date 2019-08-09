@@ -6,8 +6,6 @@ featuredImage: ../images/otto.png
 ---
 
 
-Let's start with a little history. If you are anxious to get to the practical bits, feel free to skip this section. The perfect tl;dr version courtesy of Jeff Bezos in his 2016 letter to Amazon shareholders is this:
+**The Otto Austria team has reached us to train their employees on using digital analytics**. 
 
-Over the past decades computers have broadly automated tasks that programmers could describe with clear rules and algorithms. Modern machine learning techniques now allow us to do the same for tasks where describing the precise rules is much harder.
-
-For starters, let's just assume artificial intelligence is about making computers smart in the way that we consider each other smart: that is, we can talk and understand each other, we can see the world and work out plans to get from home to a friend's house, we can learn new behavior like knitting or playing basketball by watching other people, and so forth.
+We have been running multiple workshops at Otto head offices. After the workshops, we have been working on auditing event tracking and their incredibly high conversion rates. We have been in charge of providing long term analytics support. 

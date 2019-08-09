@@ -24,7 +24,7 @@ const Principles = ({children}) => {
                       
                     
                 <div className="flex mt-8 sm:mt-12">
-                <p className="min-w-full mb-6 text-lg text-left font-normal leading-relaxed tracking-wider sm:max-w-md  md:max-w-lg lg:max-w-2xl  sm:text-xl ">
+                <p className="min-w-full mb-6 text-lg text-left font-bold leading-relaxed tracking-wider sm:max-w-md  md:max-w-lg lg:max-w-2xl  sm:text-2xl ">
                 Great poems were written before us. Great inventions were made before us. 
                 Great software was written before us. We do believe by looking into the past,
                  we will be successful today. We as a team are highly inspired by the UNIX philosophy. 
@@ -42,7 +42,7 @@ const Principles = ({children}) => {
                                 <div className="flex flex-wrap">
                                    <div className="text-left text-md sm:text-lg leading-relaxed tracking-wide">
                                       <p>
-                                      UNIX was written fifty years ago and still does teaches us of the many aspects of business and software design. 
+                                      UNIX was written fifty years ago and still teaches us of the many aspects of business and software design. 
                  The principles of the UNIX philosophy are simple. They are so simple, in fact, that people tend to regard them as having little importance. 
                  That’s where the deception comes in. Their simplicity disguises the fact that these ideas are incredibly effective when carried out consistently.
 

@@ -6,8 +6,6 @@ featuredImage: ../images/tamaris.png
 ---
 
 
-Let's start with a little history. If you are anxious to get to the practical bits, feel free to skip this section. The perfect tl;dr version courtesy of Jeff Bezos in his 2016 letter to Amazon shareholders is this:
+**We have been running a due diligence process on tag management systems.**
 
-Over the past decades computers have broadly automated tasks that programmers could describe with clear rules and algorithms. Modern machine learning techniques now allow us to do the same for tasks where describing the precise rules is much harder.
-
-For starters, let's just assume artificial intelligence is about making computers smart in the way that we consider each other smart: that is, we can talk and understand each other, we can see the world and work out plans to get from home to a friend's house, we can learn new behavior like knitting or playing basketball by watching other people, and so forth.
+The first step was to get the requirements and to make a market analysis. Based on that requirements we made a  а joint decision to use TagCommander as the main Tag Management Solution. The second step was to implement TagCommander and to provide support for the Tamaris marketing team. At the end of the project, we have been running workshops together with TagCommander employees in the head office at Tamaris. 
