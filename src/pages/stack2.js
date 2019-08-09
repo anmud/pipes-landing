@@ -14,24 +14,24 @@ const TestStack = ({children}) => {
     return (
         
      
-    <div  id="stack" className="container mx-auto w-auto sm:px-2 pt-16 sm:pt-48 pb-8 flex-grow">
+    <div  id="stack" className="container mx-auto w-auto sm:px-8 pt-20 sm:pt-32 pb-8 flex-grow" >
               <div className="bg-white">
-                <div className="container mx-auto flex flex-col px-4 sm:px-56 sm:mx-8 -mb-3">
+                <div className="container mx-auto flex flex-col px-6 sm:px-56 sm:mx-2 -mb-3">
                
             
                  <div className="flex flex-col">
-                      <h1 className="text-black text-2xl sm:text-4xl font-bold py-2 text-left tracking-normal">Our Stack</h1>
+                      <h1 className="text-black text-3xl sm:text-5xl font-bold py-2 text-left tracking-normal antialiased">Our Stack</h1>
                       <div className="bg-black h-2 w-24 -mt-4 sm:-mt-2"></div>
                  </div>
             
               
-              <div className="flex flex-col pt-20">
+              <div className="flex flex-col pt-10 sm:pt-20">
                              <div className="w-full flex items-center border-b-2 border-black">
                                <span className="text-black text-xl font-bold pb-1 tracking-normal">Languages</span>
                             </div>
                             
                             
-                         <div class="flex flex-wrap items-center -mb-4 sm:w-full  sm:mx-24 pt-12 sm:px-16">
+                         <div class="flex flex-wrap items-center -mb-4 sm:w-full  sm:mx-24 pt-10 sm:px-20">
                           <div class="w-1/4 mb-4  px-1 sm:px-2  ">
                           <Img fluid={picks.python.childImageSharp.fluid} alt="python" />
                           </div>
@@ -51,7 +51,7 @@ const TestStack = ({children}) => {
                             </div>
                             
                             
-                         <div class="flex flex-wrap items-center -mb-4 sm:w-full  sm:mx-20 pt-12 sm:px-16">
+                         <div class="flex flex-wrap items-center -mb-4 sm:w-full sm:mx-16 pt-10 sm:px-16">
                           <div class="w-1/4 mb-4 px-8 sm:px-12  ">
                           <Img fluid={picks.lambda.childImageSharp.fluid} alt="lambda" />
                           </div>
@@ -88,7 +88,7 @@ const TestStack = ({children}) => {
                             </div>
                             
                             
-                         <div class="flex flex-wrap items-center -mb-4 sm:w-full  sm:mx-24 pt-12 sm:px-16">
+                         <div class="flex flex-wrap items-center -mb-4 sm:w-full  sm:mx-16 pt-10 sm:px-16">
                           <div class="w-1/4 mb-4  px-8 sm:px-12  ">
                           <Img fluid={picks.redshift.childImageSharp.fluid} alt="redshift" />
                           </div>
@@ -119,7 +119,7 @@ const TestStack = ({children}) => {
                             </div>
                             
                             
-                         <div class="flex flex-wrap items-center -mb-4 sm:w-full  sm:mx-20 pt-12 sm:px-16">
+                         <div class="flex flex-wrap items-center -mb-4 sm:w-full  sm:mx-16 pt-4 sm:px-20">
                          <div class="w-1/4 mb-4  px-3 sm:px-5  ">
                           <Img fluid={picks.googleAnalytics.childImageSharp.fluid} alt="googleAnalytics" />
                           </div>
